@@ -1,9 +1,9 @@
 module.exports = {
   title: `salee_Devlog`,
-  description: `Back To Basic!`,
+  description: `salee의 블로그입니다. Back To Basic!`,
   author: `[salee]`,
-  introduction: `Hello👋`,
-  siteUrl: `https://gatsby-starter-bee.netlify.com`, // Your blog site url
+  introduction: `Hello👋 기초부터 단단히! FE개발자를 꿈꾸는 salee입니다.`,
+  siteUrl: `https://salee-devlog.netlify.app`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
     github: `salee102310`, // Your GitHub account
@@ -12,9 +12,9 @@ module.exports = {
     linkedin: ``, // Your LinkedIn account
   },
   icon: `content/assets/felog.png`, // Add your favicon
-  keywords: [`blog`],
+  keywords: [`blog`, `devlog`, `web`, `til`, `frontend`, `ui`, `javascript`, `python`],
   comment: {
-    disqusShortName: '', // Your disqus-short-name. check disqus.com.
+    disqusShortName: 'salee-devlog', // Your disqus-short-name. check disqus.com.
     utterances: '', // Your repository for archive comment
   },
   configs: {
