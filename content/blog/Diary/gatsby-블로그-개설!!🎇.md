@@ -35,7 +35,7 @@ JavaScript+ APIs + Markup 의 앞글자를 땄다.
 
 Client 요청은 자바스크립트, DB나 Server 관련 기능은 API, 정적 사이트 생성기 등으로 마크업을 미리 만든다는 개념이다.  (ex. 정적사이트, SPA 등등...)
 
-[![image-20210123004927097](gatsby-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B0%9C%EC%84%A4!!%F0%9F%8E%87.assets/image-20210123004927097.png)](https://jamstack.org/)
+[![](./gatsby-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B0%9C%EC%84%A4!!%F0%9F%8E%87.assets/image-20210123004927097.png)](https://jamstack.org/)
 
 ☝ 자세한 설명 click
 
@@ -43,7 +43,7 @@ Client 요청은 자바스크립트, DB나 Server 관련 기능은 API, 정적 �
 
 모든 정적 사이트는 잼스택 구조를 따르고 다양한 정적 사이트 생성기가 있다.
 
-![image-20210123005306844](gatsby-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B0%9C%EC%84%A4!!%F0%9F%8E%87.assets/image-20210123005306844.png)
+![](./gatsby-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B0%9C%EC%84%A4!!%F0%9F%8E%87.assets/image-20210123005306844.png)
 
 <br>
 
@@ -74,7 +74,7 @@ Client 요청은 자바스크립트, DB나 Server 관련 기능은 API, 정적 �
 
 `Gatsby Performance`
 
-[![image-20210123012545911](gatsby-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B0%9C%EC%84%A4!!%F0%9F%8E%87.assets/image-20210123012545911.png)](https://www.gatsbyjs.com/features/jamstack/)☝ Gatsby vs 잼스택 프레임워크와 성능을 비교한 표 click! 
+[![](./gatsby-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B0%9C%EC%84%A4!!%F0%9F%8E%87.assets/image-20210123012545911.png)](https://www.gatsbyjs.com/features/jamstack/)☝ Gatsby vs 잼스택 프레임워크와 성능을 비교한 표 click! 
 
 <br>
 
