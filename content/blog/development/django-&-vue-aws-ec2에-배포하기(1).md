@@ -55,11 +55,14 @@ draft: false
 
 ```bash
 $ sudo apt-get update
+
 // 소스코드 빌드 시 필요한 기본적인 패키지 다운로드
 $ sudo apt-get install build-essential
+
 // 파이썬 설치
 $ sudo apt-get install python3
 $ python3 --version
+
 // pip 설치 & 업데이트
 $ sudo apt-get install python3-pip
 $ sudo pip3 install --upgrade pip

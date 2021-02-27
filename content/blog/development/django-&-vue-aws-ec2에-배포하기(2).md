@@ -17,13 +17,17 @@ draft: false
 ```bash
 // PPA로 14버전 가져오기
 $ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+
 // NodeJS 설치
 $ sudo apt-get install nodejs
+
 // npm 설치 (NodeJS 설치하면 자동으로 npm까지 설치되지만, 혹시 모르니까 한 번 더 설치한다)
 $ sudo apt-get install npm
+
 // 버전 확인
 $ node -v
 $ npm -v
+
 // build-essential 설치 (npm이 제대로 동작하려면 필요하다)
 $ sudo apt-get install build-essential
 ```
@@ -37,14 +41,17 @@ $ sudo apt-get install build-essential
 ```bash
 // nginx 설치
 $ sudo apt-get install nginx
+
 // 현재 사용가능한 서비스별 ufw 설정값을 확인한다.
 $ sudo ufw app list
   Nginx Full # 포트 80(암호화되지 않은 웹 트래픽)과 포트 443(TLS/SSL 암호화 트래픽) 모두 연다.
   Nginx HTTP # 포트 80 (암호화되지 않은 웹 트래픽)을 연다
   Nginx HTTPS # 이 프로필은 포트 443 (TLS/SSL 암호화 트래픽)을 연다.
   OpenSSH 
+  
 // HTTP를 열어준다.
 $ sudo ufw allow 'Nginx HTTP'
+
 // sites-available 파일 수정
 $ vi /etc/nginx/site-available/default
 ```
