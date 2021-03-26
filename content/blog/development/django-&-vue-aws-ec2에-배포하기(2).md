@@ -53,7 +53,7 @@ $ sudo ufw app list
 $ sudo ufw allow 'Nginx HTTP'
 
 // sites-available 파일 수정
-$ vi /etc/nginx/site-available/default
+$ vi /etc/nginx/sites-available/default
 ```
 
 - Vue 프로젝트를 빌드하면 `dist`  폴더가 생긴다. dist 폴더의 위치를 `nginx` 의 `sites-available` 에서 명시해준다. (`i` 누르면 수정할 수 있다.)
