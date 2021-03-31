@@ -58,18 +58,18 @@ After=network.target
 User=ubuntu
 Group=www-data
 WorkingDirectory=[Back 폴더 경로] # /home/ubuntu/Movie_community_Back
-ExecStart=[gunicorn 경로] \ #/home/ubuntu/Movie_community_Back/venv/bin/gunicorn
+ExecStart=[gunicorn 경로] \ #/home/ubuntu/Movie_community_Back/venv/bin/gunicorn \
         --workers 5 \
         --bind [포트 연결] \ #0.0.0.0:8000
-        server.wsgi:application
+        [프로젝트 이름].wsgi:application
 
 [Install]
 WantedBy=multi-user.target
 
 
 // gunicorn service 적용 및 시작
-$ systemctl daemon-reload
-$ systemctl start gunicorn
+$ sudo systemctl daemon-reload
+$ sudo systemctl start gunicorn
 $ sudo systemctl enable gunicorn 
 
 // gunicorn 확인
